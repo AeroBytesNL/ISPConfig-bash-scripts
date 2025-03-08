@@ -11,7 +11,7 @@ webdir="$2"
 full_path="/var/www/clients/$client/$webdir"
 user_group="web46:$client"
 
-echo "I'm running in path: $full_path With user group: $user_group"
+echo "I'm running in path: $full_path with user group: $user_group"
 echo "Grab a beer, this will take some time...."
 echo "Changing file permissions..."
 
